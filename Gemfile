@@ -51,6 +51,7 @@ end
 
 group :development do
   gem 'sqlite3'
+  gem 'aws-sdk', '~> 2'
 end
 
 group :production do
