@@ -54,6 +54,7 @@ h6 {
 .italics{
   font-family: "museo",serif;
   font-style: italic;
+  text-transform: none;
   font-weight: 300;
   font-size: 22px;
 }
