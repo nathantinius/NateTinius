@@ -703,7 +703,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../assets/map-image.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/natetinius/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
