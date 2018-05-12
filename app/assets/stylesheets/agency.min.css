@@ -237,7 +237,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../assets/header-bg.jpg');
+  background-image: url('https://s3.us-east-2.amazonaws.com/natetinius/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
