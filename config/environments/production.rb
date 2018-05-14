@@ -96,6 +96,6 @@ config.paperclip_defaults = {
 }
 
 # config/environments/production.rb
-config.action_controller.asset_host = "df6hqyh2wtbn2.cloudfront.net"
+config.action_controller.asset_host = ENV['CDN_URL'] if ENV['CDN_URL']
 
 end
