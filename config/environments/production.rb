@@ -1,5 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
+  config.action_controller.asset_host = ENV['CDN_URL'] if ENV['CDN_URL']
 
   # Code is not reloaded between requests.
   config.cache_classes = true
@@ -94,8 +95,4 @@ config.paperclip_defaults = {
     s3_region: ENV.fetch('AWS_REGION'),
   }
 }
-
-# config/environments/production.rb
-config.action_controller.asset_host = ENV['CDN_URL'] if ENV['CDN_URL']
-
 end
