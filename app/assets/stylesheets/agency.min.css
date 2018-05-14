@@ -58,15 +58,6 @@ h6 {
   font-weight: 300;
   font-size: 22px;
 }
-
-.port-cap{
-  font-family: "museo",serif;
-  font-style: italic;
-  text-transform: none;
-  font-weight: 300;
-  font-size: 22px;
-}
-
 .img-centered {
   margin: 0 auto;
 }
@@ -289,7 +280,7 @@ header .intro-text .intro-heading {
   padding: 20px;
   margin: 0 auto 50px auto;
 }
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -350,45 +341,21 @@ section h3.section-subheading {
   padding: 50px 40px !important;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 500px) {
   #services .what-i-do {
     background-color: #ffffff;
-    width: 90%;
-    margin-top: 0;
-    border: none;
-    border-radius: none;
   }
 
   .center-col {
-    width: 100%;
-    padding: 20px 10px !important;
-    border:none;
+    padding: 50px 40px !important;
+    border-right: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
   }
   .left-col {
-    width: 100%;
-    padding: 20px 10px !important;
+    padding: 50px 40px !important;
   }
   .right-col {
-    width: 100%;
-    padding: 20px 10px !important;
-  }
-}
-
-@media (max-width: 500px) {
-  .languages{
-    padding: 15px 15px !important;
-    float: left;
-  }
-  aside{
-    width: 100%;
-    padding: 25px;
-    margin: auto;
-    background-color: #555;
-  }
-
-  aside .row{
-    width: 69% !important;
-    margin: auto;
+    padding: 50px 40px !important;
   }
 }
 
@@ -418,7 +385,7 @@ section h3.section-subheading {
 }
 
 .languages{
-  padding: 20px 20px;
+  padding: 15px 15px;
   float: left;
 }
 aside{
@@ -924,23 +891,4 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
-}
-
-.typed-cursor {
-  animation-name: blinker;
-  animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(1,0,0,1);
-  animation-duration: 1s;
-  //Basic styling
-  display: inline-block;
-  width: 8px;
-  height: 100px;
-  margin-left: 10px;
-  border-radius: 3px;
-  box-shadow: 0 0 10px rgba(white,.3);
-  background: $y;
-}
-
-@keyframes blinker {
-  from { opacity: 1.0; } to { opacity: 0.0; }
 }

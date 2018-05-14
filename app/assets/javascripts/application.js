@@ -14,6 +14,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-//= require typed.js
-//= require typingEffect.js
