@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 #Use pg for the database
-
+gem 'pg'
 
 group :production do
 gem 'rails_12factor'
