@@ -15,4 +15,4 @@
 //= require turbolinks
 //= require_tree .
 
-//= require table.js
+//= require typed.js
