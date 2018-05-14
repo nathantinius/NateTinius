@@ -37,7 +37,10 @@ gem 'jbuilder', '~> 2.5'
 #Use pg for the database
 gem 'pg'
 
+group :production do
 gem 'rails_12factor'
+end
+
 
 gem 'paperclip'
 
