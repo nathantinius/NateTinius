@@ -938,7 +938,6 @@ body {
   margin-left: 10px;
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(white,.3);
-  background: $y;
 }
 
 @keyframes blinker {
