@@ -95,4 +95,7 @@ config.paperclip_defaults = {
   }
 }
 
+# config/environments/production.rb
+config.action_controller.asset_host = "dacohjixuq84c.cloudfront.net"
+
 end
