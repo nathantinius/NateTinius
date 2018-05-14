@@ -96,6 +96,6 @@ config.paperclip_defaults = {
 }
 
 # config/environments/production.rb
-config.action_controller.asset_host = "dacohjixuq84c.cloudfront.net"
+config.action_controller.asset_host = "natetinius.s3.amazonaws.com/assets"
 
 end
