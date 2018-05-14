@@ -1,6 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-  config.action_controller.asset_host = ENV['CDN_URL'] if ENV['CDN_URL']
+  config.action_controller.asset_host = "dacohjixuq84c.cloudfront.net"
 
   # Code is not reloaded between requests.
   config.cache_classes = true
