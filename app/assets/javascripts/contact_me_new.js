@@ -20,6 +20,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
+
                 url: "https://s3.us-east-2.amazonaws.com/natetinius/contact_me.php",
                 type: "POST",
                 data: {
